@@ -1671,6 +1671,51 @@ DP.PropEmotes = {
        EmoteMoving = true,
    }},
 
+   	--Jim-PizzaThis
+       ["redwine"] = {"mp_player_intdrink", "loop_bottle", "Red Wine Bottle", AnimationOptions =
+       {    Prop = "prop_wine_rose", PropBone = 18905, PropPlacement = {0.00, -0.26, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["whitewine"] = {"mp_player_intdrink", "loop_bottle", "White Wine Bottle", AnimationOptions =
+       {    Prop = "prop_wine_white", PropBone = 18905, PropPlacement = {0.00, -0.26, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer1"] = {"mp_player_intdrink", "loop_bottle", "Dusche", AnimationOptions =
+       {    Prop = "prop_beerdusche", PropBone = 18905, PropPlacement = {0.04, -0.14, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer2"] = {"mp_player_intdrink", "loop_bottle", "Logger", AnimationOptions =
+       {    Prop = "prop_beer_logopen", PropBone = 18905, PropPlacement = {0.03, -0.18, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer3"] = {"mp_player_intdrink", "loop_bottle", "AM Beer", AnimationOptions =
+       {    Prop = "prop_beer_amopen", PropBone = 18905, PropPlacement = {0.03, -0.18, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer4"] = {"mp_player_intdrink", "loop_bottle", "Pisswasser1", AnimationOptions =
+       {    Prop = "prop_beer_pissh", PropBone = 18905, PropPlacement = {0.03, -0.18, 0.10, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer5"] = {"mp_player_intdrink", "loop_bottle", "Pisswasser2", AnimationOptions =
+       {    Prop = "prop_amb_beer_bottle", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["beer6"] = {"mp_player_intdrink", "loop_bottle", "Pisswasser3", AnimationOptions =
+       {    Prop = "prop_cs_beer_bot_02", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["ecola"] = {"mp_player_intdrink", "loop_bottle", "e-cola", AnimationOptions =
+       {    Prop = "prop_ecola_can", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["sprunk"] = {"mp_player_intdrink", "loop_bottle", "sprunk", AnimationOptions =
+       {    Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["pizza"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "Pizza", AnimationOptions =
+       {    Prop = "v_res_tt_pizzaplate", PropBone = 18905, PropPlacement = {0.20, 0.038, 0.051, 15.0, 155.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["bowl"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "bowl", AnimationOptions =
+       {    Prop = "h4_prop_h4_coke_plasticbowl_01", PropBone = 28422, PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["pineapple"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "Pizza", AnimationOptions =
+       {    Prop = "prop_pineapple", PropBone = 18905, PropPlacement = {0.10, 0.038, 0.03, 15.0, 50.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+       ["foodbowl"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "bowl", AnimationOptions =
+       {    Prop = "prop_cs_bowl_01", PropBone = 28422, PropPlacement = {0.0, 0.0, 0.050, 0.0, 0.0, 0.0},
+            EmoteMoving = true, EmoteLoop = true, }},
+    
+
 -----------------------------------------------------------------------------------------------------
 ------ This is an example of an emote with 2 props, pretty simple! ----------------------------------
 -----------------------------------------------------------------------------------------------------
